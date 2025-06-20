@@ -12,7 +12,7 @@ Um clone do Trello construído com tecnologias modernas para gerenciamento de pr
   - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
   - ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
   - ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-  - ![Material UI](https://mui.com/material-ui/pt/)
+  - ![Material UI](https://img.shields.io/badge/Material_UI-0081CB?style=for-the-badge&logo=mui&logoColor=white)
 
 - **Funcionalidades**:
   - ![DnD Library](https://img.shields.io/badge/Drag&Drop-FF6B6B?style=for-the-badge)
