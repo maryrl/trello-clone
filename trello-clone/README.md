@@ -4,7 +4,7 @@
 
 ## ✨ Visão Geral
 
-Um clone do Trello construído com tecnologias modernas para gerenciamento de projetos no estilo Kanban. Esta aplicação oferece quadros, listas e cartões totalmente interativos com persistência local.
+Um clone do Trello construído com as mais modernas tecnologias frontend para gerenciamento de projetos no estilo Kanban. Esta aplicação oferece quadros, listas e cartões totalmente interativos com persistência local.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -20,13 +20,13 @@ Um clone do Trello construído com tecnologias modernas para gerenciamento de pr
 
 ## 🌟 Funcionalidades Principais
 
-✅ **Quadros Kanban completos**  
-✅ **Drag-and-drop intuitivo** de listas e cartões  
-✅ **Modo claro/escuro**  
-✅ **Sistema de tags coloridas** para organização  
+✅ **Quadros Kanban completos** com Material UI  
+✅ **Sistema de arrastar e soltar** intuitivo  
+✅ **Design responsivo** para todos dispositivos  
+✅ **Temas personalizáveis** (claro/escuro)  
+✅ **Componentes estilizados** com Material UI  
 ✅ **Persistência automática** no localStorage  
-✅ **Responsividade** para todos os dispositivos  
-✅ **Animações fluidas** com Framer Motion  
+✅ **Tipagem forte** com TypeScript  
 
 ## 🛠️ Como Executar Localmente
 
@@ -66,11 +66,11 @@ Um clone do Trello construído com tecnologias modernas para gerenciamento de pr
 ```
 trello-clone/
 ├── src/
-│   ├── components/      # Componentes React
+│   ├── components/      # Componentes React com Material UI
 │   ├── context/         # Contextos globais (tema, etc.)
 │   ├── hooks/           # Custom hooks
 │   ├── types/           # Tipos TypeScript
-│   ├── styles/          # Estilos globais
+│   ├── styles/          # Estilos globais e temas
 │   └── pages/           # Rotas da aplicação
 ├── public/              # Assets estáticos
 └── package.json
@@ -80,8 +80,8 @@ trello-clone/
 
 Você pode personalizar:
 
-1. **Cores do tema**: Edite `tailwind.config.js`
-2. **Tags padrão**: Modifique em `src/types/index.ts`
+1. **Tema Material UI**: Edite `src/styles/theme.ts`
+2. **Componentes**: Modifique em `src/components/`
 3. **Dados iniciais**: Ajuste em `src/hooks/useLocalStorage.ts`
 
 ## 🤝 Contribuição
